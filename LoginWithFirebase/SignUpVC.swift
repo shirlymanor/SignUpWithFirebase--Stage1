@@ -10,6 +10,11 @@ import UIKit
 
 class SignUpVC: UIViewController {
 
+    @IBOutlet weak var userName: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var reTypePassword: UITextField!
+    @IBOutlet weak var errorLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +26,7 @@ class SignUpVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+   
     /*
     // MARK: - Navigation
 
